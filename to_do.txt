@@ -1,0 +1,12 @@
+-web spring mvc - controler ktory odptyuje serwis zewnetrzny REST, przez bean service w springu:
+---2 konteksty - root dla calej aplikacji web dla mvc
+http://stackoverflow.com/questions/11708967/what-is-the-difference-between-applicationcontext-and-webapplicationcontext-in-s
+-wyniki przetwarza i wyswietla na www
+-mockito
+-junit
+-maven
+http://kobietydokodu.pl/09-spring-mvc/
+
+http://kobietydokodu.pl/7-maven-i-tajemnice-pliku-pom-xml/
+
+http://kobietydokodu.pl/22-web-services/

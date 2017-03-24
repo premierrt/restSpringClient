@@ -10,3 +10,7 @@ http://kobietydokodu.pl/09-spring-mvc/
 http://kobietydokodu.pl/7-maven-i-tajemnice-pliku-pom-xml/
 
 http://kobietydokodu.pl/22-web-services/
+
+
+--
+https://gturnquist-quoters.cfapps.io/api/random

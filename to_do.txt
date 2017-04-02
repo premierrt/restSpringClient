@@ -13,9 +13,18 @@ http://kobietydokodu.pl/22-web-services/
 
 
 --
+-testu jednostkowe uruchamiane z maven
+-mockito uruchamiane z maven
 
 
 ----
 REST:
 https://spring.io/guides/gs/consuming-rest/
 https://gturnquist-quoters.cfapps.io/api/random
+
+2-04
+-bean servicowy, ktory bedzie wolał klienta
+
+to_do
+-kontekst dla beanu service
+-test junit service beanu

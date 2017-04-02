@@ -13,4 +13,9 @@ http://kobietydokodu.pl/22-web-services/
 
 
 --
+
+
+----
+REST:
+https://spring.io/guides/gs/consuming-rest/
 https://gturnquist-quoters.cfapps.io/api/random

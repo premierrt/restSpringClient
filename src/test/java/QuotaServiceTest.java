@@ -1,4 +1,4 @@
-package test;
+package test.java;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,5 +19,6 @@ public class QuotaServiceTest extends TestCase {
 	@Test
 	public void testQuotaService(){
 		service.quota();
+		
 	}
 }

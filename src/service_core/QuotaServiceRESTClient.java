@@ -1,7 +1,6 @@
 package service_core;
 
-import java.util.ArrayList;
-import java.util.List;
+
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -13,6 +12,11 @@ import client.QuoteResponse;
 public class QuotaServiceRESTClient {
 private static final Log log = LogFactory.getLog(QuotaServiceRESTClient.class);
 	
+
+
+
+
+///dodac metode zwracjaca QuotaResponse
 	public void quota(){
 	
 	RestTemplate restTemplate=new RestTemplate();
@@ -24,5 +28,7 @@ private static final Log log = LogFactory.getLog(QuotaServiceRESTClient.class);
     log.info(quote.toString());
     
 	}
+	
+	
 	
 }

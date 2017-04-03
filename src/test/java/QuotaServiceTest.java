@@ -5,6 +5,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.util.Assert;
 
 import junit.framework.TestCase;
 import service_core.QuotaServiceRESTClient;
@@ -20,5 +21,10 @@ public class QuotaServiceTest extends TestCase {
 	public void testQuotaService(){
 		service.quota();
 		
+	}
+	
+	@Test
+	public void testQuotaSeviceResp(){
+		Assert.notNull( service.quote());
 	}
 }

@@ -14,6 +14,16 @@ private static final Log log = LogFactory.getLog(QuotaServiceRESTClient.class);
 	
 
 
+public QuoteResponse quote(){
+RestTemplate restTemplate=new RestTemplate();
+	
+
+	
+    QuoteResponse quote = restTemplate.getForObject("http://gturnquist-quoters.cfapps.io/api/random", QuoteResponse.class);
+	
+	return quote;
+	
+}
 
 
 ///dodac metode zwracjaca QuotaResponse

@@ -21,6 +21,12 @@ public class Value {
 	public void setQuote(String quote) {
 		this.quote = quote;
 	}
+	@Override
+	public String toString() {
+		return "Value [id=" + id + ", quote=" + quote + "]";
+	}
+	
+	
 	
 	
 }

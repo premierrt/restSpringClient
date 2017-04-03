@@ -1,5 +1,8 @@
 package service_core;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.stereotype.Service;
@@ -13,6 +16,9 @@ private static final Log log = LogFactory.getLog(QuotaServiceRESTClient.class);
 	public void quota(){
 	
 	RestTemplate restTemplate=new RestTemplate();
+	
+
+	
     QuoteResponse quote = restTemplate.getForObject("http://gturnquist-quoters.cfapps.io/api/random", QuoteResponse.class);
     
     log.info(quote.toString());

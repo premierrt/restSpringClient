@@ -21,6 +21,10 @@ public class QuoteResponse {
 	public void setValue(Value value) {
 		this.value = value;
 	}
+	@Override
+	public String toString() {
+		return "QuoteResponse [type=" + type + ", value=" + value + "]";
+	}
 	
 	
 }

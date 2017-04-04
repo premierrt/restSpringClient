@@ -17,6 +17,12 @@ http://kobietydokodu.pl/22-web-services/
 -mockito uruchamiane z maven
 
 
+
+DONE:
+- checkstyle -analiza statyczna podłaczona pod maven
+http://kobietydokodu.pl/praktyczna-java-checkstyle/
+
+
 ----
 REST:
 https://spring.io/guides/gs/consuming-rest/
